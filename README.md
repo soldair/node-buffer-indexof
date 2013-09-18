@@ -1,3 +1,6 @@
+[![Build Status](https://secure.travis-ci.org/soldair/node-buffer-indexof.png)](http://travis-ci.org/soldair/node-buffer-indexof)
+ 
+
 buffer-indexof
 ===================
 
