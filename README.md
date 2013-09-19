@@ -19,11 +19,11 @@ bindexOf(b,newLineBuffer) === 2
 
 // you can also start from index
 
-bindexOf(b,newLineBuffer,2) === 5
+bindexOf(b,newLineBuffer,3) === 5
 
 // no match === -1
 
-bindexOf(b,newLineBuffer,5) === -1
+bindexOf(b,newLineBuffer,6) === -1
 
 
 ```
