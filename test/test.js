@@ -8,6 +8,9 @@ test("can haz working",function(t){
 
   var b = new Buffer("hi\nho\nsilver");
 
+  t.equals(bindexOf(new Buffer('a'), new Buffer('abc')), -1, 'should not match')
+
+  t.equals(bindexOf(new Buffer('aaa'), new Buffer('aa'), 2), -1, 'should not match')
 
   t.equals(bindexOf(b,newLineBuffer),2,'should find newlines');
 

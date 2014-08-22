@@ -13,5 +13,7 @@ module.exports = function bufferIndexOf(buf,search,offset){
       m = 0;
     }
   }
+
+  if (s > -1 && buf.length - s < search.length) return -1;
   return s;
 }
