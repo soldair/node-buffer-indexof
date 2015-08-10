@@ -27,3 +27,9 @@ bindexOf(b,newLineBuffer,6) === -1
 
 
 ```
+
+CHANGELOG
+----------
+
+- 1.0.0
+  - fixed issue finding multibyte needles in haystack.  thanks @imulus

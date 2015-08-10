@@ -10,7 +10,9 @@ test("can haz working",function(t){
 
   t.equals(bindexOf(new Buffer('a'), new Buffer('abc')), -1, 'should not match')
 
-  t.equals(bindexOf(new Buffer('aaa'), new Buffer('aa'), 2), -1, 'should not match')
+
+  t.equals(bindexOf(new Buffer('aaa'), new Buffer('aa'), 2), -1, 'should not match with 2 offset')
+  t.equals(bindexOf(new Buffer('aaa'), new Buffer('aa')), 0, 'should match')
 
   t.equals(bindexOf(b,newLineBuffer),2,'should find newlines');
 
