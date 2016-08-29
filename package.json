@@ -12,6 +12,7 @@
   "author": "Ryan Day",
   "dependencies": {},
   "devDependencies": {
+    "chalk": "^1.1.3",
     "tape": "~1.1.0"
   }
 }

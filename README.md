@@ -33,3 +33,5 @@ CHANGELOG
 
 - 1.0.0
   - fixed issue finding multibyte needles in haystack.  thanks @imulus
+- 1.0.1
+  - fixed failing to find partial matches as pointed out by @bahaa-aidi in #2

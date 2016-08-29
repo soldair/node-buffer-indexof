@@ -27,3 +27,11 @@ test("can haz working",function(t){
 
   t.end();
 })
+
+
+test("can handle overlapping matches",function(t){
+  console.log(1,'aaaba'.indexOf('aaba'))
+  console.log(2,bindexOf(new Buffer('aaaba'), new Buffer('aaba')))
+  console.log(3,(new Buffer('aaaba')).indexOf(new Buffer('aaba')))
+  t.end()
+})
