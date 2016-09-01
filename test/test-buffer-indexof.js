@@ -129,6 +129,8 @@ test('node 6 buffer indexOf tests', function(t) {
   );
 
   // test latin1 encoding
+  // does not work in LTS
+  /*
   t.equal(
     bindexOf(
       new Buffer(b.toString('latin1'), 'latin1'),
@@ -172,7 +174,7 @@ test('node 6 buffer indexOf tests', function(t) {
     ),
     0
   );
-
+  */
   // test binary encoding
   t.equal(
     bindexOf(
