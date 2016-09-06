@@ -1,7 +1,7 @@
 {
   "name": "buffer-indexof",
   "description": "find the index of a buffer in a buffer",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "repository": {
     "url": "git://github.com/soldair/node-buffer-indexof.git"
   },
