@@ -10,6 +10,7 @@
     "test": "tape test/*.js"
   },
   "author": "Ryan Day",
+  "license": "MIT",
   "dependencies": {},
   "devDependencies": {
     "chalk": "^1.1.3",
